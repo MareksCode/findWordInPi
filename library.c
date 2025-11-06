@@ -4,17 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct Node {
-    char data;
-    struct Node* next;
-    struct Node* prev;
-} Node;
-typedef struct NumNode {
-    double data;
-    struct NumNode* next;
-    struct NumNode* prev;
-} NumNode;
-
 char getCharFromTwoNumbers(int numbers) {
     return (char)('a' + numbers % 26);
 }
